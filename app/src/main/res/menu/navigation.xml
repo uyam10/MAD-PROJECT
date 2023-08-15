@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_current"
+        android:icon="@drawable/ic_location"
+        android:checked="false"
+        android:title="Current"/>
+
+    <item
+        android:id="@+id/navigation_date"
+        android:icon="@drawable/ic_calendar"
+        android:title="Date"/>
+
+    <item
+        android:id="@+id/navigation_7days"
+        android:icon="@drawable/ic_7days_"
+        android:title="7 Days report"/>
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/ic_settings"
+        android:title="Setting"/>
+</menu>
